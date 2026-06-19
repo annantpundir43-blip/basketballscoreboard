@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+    display: flex;
+    gap: 80px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.score {
+    width: 160px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    background: transparent;
+    color: #9AABD8;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-btn {
+    margin-top: 30px;
+
+    margin-left: 30px;
+    padding: 12px 24px;
+    font-size: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
